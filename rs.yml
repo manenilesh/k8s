@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: my-rs-1
+  name: my-rs-object
   labels:
     app: my-rs-1
 spec:
