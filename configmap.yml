@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata: 
   name: my-configmap-app
   labels:
-    app: my-
+    app: my-cm-app
