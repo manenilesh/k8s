@@ -39,7 +39,7 @@ spec:
     metadata:
       name: laptop-app
       labels:
-        app: nm-app
+        app: laptop-app
     spec:
       containers:
         - name: my-deploy-pod
