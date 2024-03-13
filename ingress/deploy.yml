@@ -7,9 +7,9 @@ metadata:
 spec:
   template:
     metadata:
-      name: deploy-app
+      name: home-app
       labels:
-        app: nm-app
+        app: home-app-app
     spec:
       containers:
         - name: my-deploy-pod
