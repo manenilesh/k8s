@@ -22,6 +22,5 @@ spec:
   selector:
     matchLabels:
       app: nm-app
-  minReadySeconds: 5
   strategy:
     type: RollingUpdate
