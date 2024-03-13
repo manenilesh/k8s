@@ -42,7 +42,7 @@ spec:
         app: laptop-app
     spec:
       containers:
-        - name: my-deploy-pod
+        - name: my-laptop-pod
           image: nginx
           ports:
             - name: nginx
