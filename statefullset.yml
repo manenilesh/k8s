@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: my-ss-pod
-        image: httpd
+        image: mysql
         ports:
         - containerPort: 3306
           name: http
