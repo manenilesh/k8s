@@ -17,7 +17,7 @@ spec:
               name: mysql
               protocol: TCP
           env:
-            key: "  MY"
+            key: "  MYSQL_ROOT"
   selector:
     matchLabels:
       app: my-ss-app
