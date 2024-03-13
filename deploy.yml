@@ -12,7 +12,7 @@ spec:
         app: nm-app
     spec:
       containers:
-        - name: nm-app
+        - name: my-app
           image: nginx
           ports:
             - name: nginx
