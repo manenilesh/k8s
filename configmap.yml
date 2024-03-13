@@ -12,7 +12,8 @@ spec:
         app: my-cm-app
     spec:
       containers:
-        - image:  image
+        - 
+        image:  image
         name:  my-name
         env:
           - name:  ENVVARNAME
