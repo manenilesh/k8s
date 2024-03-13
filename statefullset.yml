@@ -18,5 +18,4 @@ spec:
   selector:
     matchLabels:
       app: myapp
-  serviceName: <ServiceName>
   replicas: 2
