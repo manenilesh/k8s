@@ -12,9 +12,9 @@ spec:
         app: my-cm-app
     spec:
       containers:
-        - name:  my- 
-        image:  image
-        name:  my-name
-        env:
-          - name:  ENVVARNAME
-            value:  ENVVARVALUE
+        - name:  my-cm-pod 
+          image:  image
+          name:  my-name
+          env:
+            - name:  ENVVARNAME
+              value:  ENVVARVALUE
