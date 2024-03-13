@@ -11,10 +11,10 @@ spec:
     spec:
       containers:
       - name: my-ss-app
-        image: registry.k8s.io/nginx-slim:0.8
+        image: httpd
         ports:
         - containerPort: 80
-          name: web
+          name: httpd
 
   selector:
     matchLabels:
