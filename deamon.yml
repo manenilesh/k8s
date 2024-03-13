@@ -22,5 +22,5 @@ spec:
               value: "1234"
   selector:
     matchLabels:
-      app: my-ss-app
+      app: my-dm-app
   replicas: 2
