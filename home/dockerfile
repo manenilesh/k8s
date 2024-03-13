@@ -1,1 +1,1 @@
-FROM baseImage
+FROM centos:7
