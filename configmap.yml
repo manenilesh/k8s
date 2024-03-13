@@ -10,4 +10,4 @@ spec:
       name:  my-cm-app
     labels: 
       app: my-cm-app
-  
+    spe
