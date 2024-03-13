@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: my-deploy-home
   labels:
-    app: nm-app
+    app: home-app
 spec:
   template:
     metadata:
