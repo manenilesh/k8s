@@ -14,7 +14,7 @@ spec:
         image: mysql
         ports:
         - containerPort: 3306
-          name: http
+          name: mysql
           protocol: TCP
 
   selector:
