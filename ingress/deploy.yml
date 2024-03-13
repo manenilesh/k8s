@@ -68,12 +68,12 @@ metadata:
 spec:
   template:
     metadata:
-      name: deploy-app
+      name: mobile-app
       labels:
         app: nm-app
     spec:
       containers:
-        - name: my-deploy-pod
+        - name: my-mobile-pod
           image: nginx
           ports:
             - name: nginx
