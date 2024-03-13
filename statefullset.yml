@@ -17,8 +17,8 @@ spec:
               name: mysql
               protocol: TCP
           env:
-            - key: "  MYSQL_ROOT_PASSWORD"
-              value
+            - key: "MYSQL_ROOT_PASSWORD"
+              value: ""
 
   selector:
     matchLabels:
