@@ -9,7 +9,6 @@ spec:
     metadata:
       labels:
         app: my-ss-app
-      namespace: ns1
     spec:
       containers:
         - name: my-ss-pod
