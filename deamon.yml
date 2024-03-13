@@ -8,10 +8,10 @@ spec:
   template:
     metadata:
       labels:
-        app: my-ss-app
+        app: my-dm-app
     spec:
       containers:
-        - name: my-ss-pod
+        - name: my-dm-pod
           image: mysql
           ports:
             - containerPort: 3306
