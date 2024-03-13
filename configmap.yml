@@ -11,4 +11,9 @@ spec:
       labels: 
         app: my-cm-app
     spec:
-      cons
+      containers:
+        - image:  image
+        name:  my-name
+        env:
+          - name:  ENVVARNAME
+            value:  ENVVARVALUE
