@@ -7,7 +7,7 @@ spec:
     metadata:
       labels:
         app: myapp
-      namespace: 
+      namespace: ns1
     spec:
       containers:
       - name: myapp
