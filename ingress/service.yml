@@ -37,4 +37,4 @@ spec:
     targetPort: 80
     protocol: TCP
   selector:
-    app: mobile-app
+    app: mobile-app-app
