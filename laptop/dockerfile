@@ -2,6 +2,6 @@ FROM centos:7
 RUN yum install httpd -y
 RUN mkdir /var/www/html/laptop/
 RUN echo "<h1>WELCOME TO Laptop Page" > /var/www/html/laptop/index.html
-RUN chmod 777 
+RUN chmod 777 /var/www/html/laptop/
 EXPOSE 80
 ENTRYPOINT ["httpd", "-DFOREGROUND"]
