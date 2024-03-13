@@ -16,7 +16,12 @@ spec:
         - containerPort: 3306
           name: mysql
           protocol: TCP
-        
+        env:
+          - name:  ENV_VAR
+            valueFrom:
+              secretKeyRef:
+                name:  name
+                key:  key
 
   selector:
     matchLabels:
