@@ -45,13 +45,13 @@ spec:
         - name: my-laptop-pod
           image: /
           ports:
-            - name: nginx
+            - name: http
               protocol: TCP
               containerPort: 80
   replicas: 2
   selector:
     matchLabels:
-      app: nm-app
+      app: laptop-app
   strategy:
     type: RollingUpdate
 
