@@ -14,7 +14,6 @@ spec:
       containers:
         - name:  my-cm-pod 
           image:  image
-          name:  my-name
           env:
             - name:  ENVVARNAME
               value:  ENVVARVALUE
