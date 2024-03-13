@@ -6,7 +6,7 @@ spec:
   template:
     metadata:
       labels:
-        app: myapp
+        app: my
       namespace: ns1
     spec:
       containers:
