@@ -4,13 +4,12 @@ metadata:
   name: home-app-service
 spec:
   ports:
-  - name: http
-    port: 80
-    targetPort: 80
-    protocol: TCP
+    - name: http
+      port: 80
+      targetPort: 80
+      protocol: TCP
   selector:
     app: home-app
-
 ---
 apiVersion: v1
 kind: Service
@@ -18,13 +17,12 @@ metadata:
   name: cloth-app-service
 spec:
   ports:
-  - name: http
-    port: 80
-    targetPort: 80
-    protocol: TCP
+    - name: http
+      port: 80
+      targetPort: 80
+      protocol: TCP
   selector:
     app: laptop-app
-
 ---
 apiVersion: v1
 kind: Service
@@ -32,9 +30,9 @@ metadata:
   name: mobile-app-service
 spec:
   ports:
-  - name: http
-    port: 80
-    targetPort: 80
-    protocol: TCP
+    - name: http
+      port: 80
+      targetPort: 80
+      protocol: TCP
   selector:
-    app: mobile-app-app
+    app: mobile-app
