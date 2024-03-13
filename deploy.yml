@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: my-deployment
   labels:
-    app: xyz-app
+    app: nm-app
 spec:
   template:
     metadata:
@@ -15,7 +15,7 @@ spec:
           image: nginx
           ports:
             - name: nginx
-              pro
+              protocol: TCP
               containerPort: 80
   replicas: 3
   selector:
