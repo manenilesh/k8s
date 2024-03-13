@@ -1,7 +1,7 @@
 FROM centos:7
 RUN yum install httpd -y
 RUN mkdir /var/www/html/mobile/
-RUN echo "<h1>WELCOME TO Laptop Page" > /var/www/html/mobile/index.html
-RUN chmod 777 /var/www/html/laptop/
+RUN echo "<h1>WELCOME TO Mobile Page" > /var/www/html/mobile/index.html
+RUN chmod 777 /var/www/html/mobile/
 EXPOSE 80
 ENTRYPOINT ["httpd", "-DFOREGROUND"]
