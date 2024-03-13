@@ -70,7 +70,7 @@ spec:
     metadata:
       name: mobile-app
       labels:
-        app: nm-app
+        app: mobile-app
     spec:
       containers:
         - name: my-mobile-pod
