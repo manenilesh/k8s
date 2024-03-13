@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-deploy-obejct
+  name: my-deploy-home
   labels:
     app: nm-app
 spec:
