@@ -8,6 +8,6 @@ spec:
   template:
     metadata:
       name:  my-cm-app
-    labels: 
-      app: my-cm-app
-    spe
+      labels: 
+        app: my-cm-app
+    spec:
