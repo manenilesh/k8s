@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name: my-ss
+  name: my-ss-app
 spec:
   template:
     metadata:
@@ -10,7 +10,7 @@ spec:
       namespace: ns1
     spec:
       containers:
-      - name: my-ss-app
+      - name: my-ss
         image: httpd
         ports:
         - containerPort: 80
