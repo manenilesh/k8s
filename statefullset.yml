@@ -16,6 +16,7 @@ spec:
         - containerPort: 3306
           name: mysql
           protocol: TCP
+        
 
   selector:
     matchLabels:
