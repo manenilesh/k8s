@@ -13,7 +13,8 @@ spec:
     spec:
       containers:
         - name:  my-cm-pod 
-          image:  
+          image: mysql
+          
           env:
             - name:  ENVVARNAME
               value:  ENVVARVALUE
