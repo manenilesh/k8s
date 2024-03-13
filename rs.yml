@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: my-secret-o
+  name: my-rs-1
   labels:
     app: my-rs-1
 spec:
