@@ -6,4 +6,5 @@ metadata:
     app: my-cm-app
 spec:
   template:
-    meta
+    metadata:
+      name:  n
