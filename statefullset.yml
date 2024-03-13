@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name: my-ss
+  name: my-ss-object
   labels:
     app: my-ss-app
 spec:
