@@ -15,7 +15,7 @@ spec:
         ports:
         - containerPort: 80
           name: http
-          pro
+          protocol: TCP
 
   selector:
     matchLabels:
