@@ -16,7 +16,8 @@ spec:
             - containerPort: 3306
               name: mysql
               protocol: TCP
-          env 
+          env:
+            
   selector:
     matchLabels:
       app: my-ss-app
