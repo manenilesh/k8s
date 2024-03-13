@@ -10,7 +10,7 @@ spec:
       namespace: ns1
     spec:
       containers:
-      - name: myapp
+      - name: my-ss
         image: registry.k8s.io/nginx-slim:0.8
         ports:
         - containerPort: 80
