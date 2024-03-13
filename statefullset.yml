@@ -22,4 +22,4 @@ spec:
   selector:
     matchLabels:
       app: my-ss-app
-  replicas: 0
+  replicas: 5
