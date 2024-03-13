@@ -12,7 +12,7 @@ spec:
       namespace: ns-demo
     spec:
       containers:
-        - name: my-pod
+        - name: my-rc-pod
           image: httpd
           ports:
             - name: http
