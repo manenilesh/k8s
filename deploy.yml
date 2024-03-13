@@ -22,6 +22,10 @@ spec:
   selector:
     matchLabels:
       app: nm-app
-  strategy:
-    type: RollingUpdate
-    
+  minReadySeconds: 5
+strategy:
+  type: RollingUpdate
+  rollingUpdate:
+    maxSurge: 1
+    maxUnavailable: 1
+
