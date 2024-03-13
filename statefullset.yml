@@ -10,7 +10,7 @@ spec:
       namespace: ns1
     spec:
       containers:
-      - name: my-ss
+      - name: my-ss-pod
         image: httpd
         ports:
         - containerPort: 80
