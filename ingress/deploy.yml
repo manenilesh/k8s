@@ -24,3 +24,7 @@ spec:
       app: nm-app
   strategy:
     type: RollingUpdate
+
+
+
+
