@@ -15,7 +15,7 @@ spec:
         - name: my-home-pod
           image: /
           ports:
-            - name: nginx
+            - name: 
               protocol: TCP
               containerPort: 80
   replicas: 2
