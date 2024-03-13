@@ -3,11 +3,6 @@ kind: StatefulSet
 metadata:
   name: my-ss-1
 spec:
-  selector:
-    matchLabels:
-      app: myapp
-  serviceName: <ServiceName>
-  replicas: 2
   template:
     metadata:
       labels:
