@@ -12,8 +12,8 @@ spec:
         app: home-app
     spec:
       containers:
-        - name: my-deploy-pod
-          image: nginx
+        - name: my-home-pod
+          image: /
           ports:
             - name: nginx
               protocol: TCP
