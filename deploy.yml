@@ -12,7 +12,7 @@ spec:
         app: nm-app
     spec:
       containers:
-        - name: my-deploy-app
+        - name: my-deploy-pod
           image: nginx
           ports:
             - name: nginx
