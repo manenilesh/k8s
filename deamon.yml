@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name: my-ss-object
+  name: my-dm-object
   labels:
-    app: my-ss-app
+    app: my-dm-app
 spec:
   template:
     metadata:
