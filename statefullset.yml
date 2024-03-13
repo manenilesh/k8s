@@ -10,19 +10,12 @@ spec:
       namespace: ns1
     spec:
       containers:
-      - name: my-ss-pod
-        image: mysql
-        ports:
-        - containerPort: 3306
-          name: mysql
-          protocol: TCP
-        env:
-          - name:  ENV_VAR
-            valueFrom:
-              secretKeyRef:
-                name:  name
-                key:  key
-
+        - name: my-ss-pod
+          image: mysql
+          ports:
+            - containerPort: 3306
+              name: mysql
+              protocol: TCP
   selector:
     matchLabels:
       app: my-ss-app
