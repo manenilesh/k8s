@@ -19,5 +19,5 @@ spec:
 
   selector:
     matchLabels:
-      app: myapp
+      app: my-ss-app
   replicas: 2
