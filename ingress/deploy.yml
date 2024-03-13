@@ -43,7 +43,7 @@ spec:
     spec:
       containers:
         - name: my-laptop-pod
-          image: nginx
+          image: /
           ports:
             - name: nginx
               protocol: TCP
