@@ -14,7 +14,10 @@ spec:
       containers:
         - name:  my-cm-pod 
           image: mysql
-          
+          ports:
+          - name:  sql
+            port:  Port
+            protocol: TCP
           env:
             - name:  ENVVARNAME
               value:  ENVVARVALUE
