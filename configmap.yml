@@ -16,7 +16,7 @@ spec:
           image: mysql
           ports:
           - name:  sql
-            port:  3306
+            containerPort:port:  3306
             protocol: TCP
           env:
             - name:  ENVVARNAME
