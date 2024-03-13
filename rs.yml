@@ -12,7 +12,7 @@ spec:
       namespace: ns-demo
     spec:
       containers:
-        - name: my-ns-pod
+        - name: my-ss-pod
           image: nginx
           ports:
             - name: nginx
