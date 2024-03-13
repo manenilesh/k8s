@@ -9,7 +9,7 @@ spec:
     metadata:
       name: home-app
       labels:
-        app: home-app-app
+        app: home-app
     spec:
       containers:
         - name: my-deploy-pod
