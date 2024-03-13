@@ -14,3 +14,9 @@ spec:
         ports:
         - containerPort: 80
           name: web
+
+  selector:
+    matchLabels:
+      app: myapp
+  serviceName: <ServiceName>
+  replicas: 2
