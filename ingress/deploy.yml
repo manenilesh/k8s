@@ -33,11 +33,11 @@ kind: Deployment
 metadata:
   name: my-laptop-obejct
   labels:
-    app: nm-app
+    app: laptop-app
 spec:
   template:
     metadata:
-      name: deploy-app
+      name: laptop-app
       labels:
         app: nm-app
     spec:
