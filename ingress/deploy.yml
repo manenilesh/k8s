@@ -24,10 +24,7 @@ spec:
       app: home-app
   strategy:
     type: RollingUpdate
-
 ---
-
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -54,11 +51,7 @@ spec:
       app: laptop-app
   strategy:
     type: RollingUpdate
-
 ---
-
-
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:
