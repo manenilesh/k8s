@@ -5,10 +5,4 @@ metadata:
   labels:
     app: my-cm-app
 spec:
-  apiVersion: v1
-  kind: Secret
-  metadata:
-    name:  secretName
-  data:
-     secretKey:  BASE64_ENCODED_VALUE
-  type: Opaque
+  templ
