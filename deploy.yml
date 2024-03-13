@@ -8,10 +8,10 @@ spec:
   template:
     metadata:
       labels:
-        app: xyz-app
+        app: nm-app
     spec:
       containers:
-        - name: xyz-app
+        - name: nm-app
           image: nginx
           ports:
             - name: nginx
@@ -20,6 +20,6 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      app: xyz-app
+      app: nm-app
   strategy:
     type: RollingUpdate
