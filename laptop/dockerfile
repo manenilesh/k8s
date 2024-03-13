@@ -2,5 +2,6 @@ FROM centos:7
 RUN yum install httpd -y
 RUN mkdir /var/www/html/laptop/
 RUN echo "<h1>WELCOME TO Laptop Page" > /var/www/html/laptop/index.html
+R
 EXPOSE 80
 ENTRYPOINT ["httpd", "-DFOREGROUND"]
