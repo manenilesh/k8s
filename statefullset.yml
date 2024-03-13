@@ -14,7 +14,8 @@ spec:
         image: httpd
         ports:
         - containerPort: 80
-          name: httpd
+          name: http
+          pro
 
   selector:
     matchLabels:
