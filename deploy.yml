@@ -14,7 +14,8 @@ spec:
         - name: xyz-app
           image: nginx
           ports:
-            - name: ngi
+            - name: nginx
+              pro
               containerPort: 80
   replicas: 3
   selector:
