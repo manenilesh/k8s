@@ -15,7 +15,7 @@ spec:
     - host: karad.cloud
       http:
         paths:
-          - path: /laptop/
+          - path: /laptop
             pathType: Prefix
             backend:
               service:
