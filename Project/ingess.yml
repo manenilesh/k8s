@@ -22,10 +22,10 @@ spec:
                 name: laptop-app-service
                 port:
                   number: 80
-
           - path: /mobile/
             pathType: Prefix
             backend:
               service:
-                name:  mobile-app-service
-                por
+                name: mobile-app-service
+                port:
+                  number: 80
