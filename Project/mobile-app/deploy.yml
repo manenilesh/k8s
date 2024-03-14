@@ -18,7 +18,7 @@ spec:
             - name: nginx
               protocol: TCP
               containerPort: 80
-  replicas: 0
+  replicas: 1
   selector:
     matchLabels:
       app: mobile-app
