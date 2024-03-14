@@ -15,7 +15,8 @@ spec:
     - host: karad.cloud
       http:
         paths:
-          - pathType: Prefix
+          - 
+            pathType: Prefix
             backend:
               service:
                 name: mobile-app-service
