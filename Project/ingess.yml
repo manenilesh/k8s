@@ -5,6 +5,7 @@ metadata:
   labels:
     name: project-ingress
 spec:
+
   rules:
   - host: <Host>
     http:
