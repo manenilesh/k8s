@@ -27,7 +27,4 @@ spec:
             pathType: Prefix
             backend:
               service:
-                ports:
-                - name:  Port Name
-                  port:  Port
-                  protocol: TCP
+                po
