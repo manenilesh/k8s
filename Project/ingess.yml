@@ -15,10 +15,12 @@ spec:
     - host: karad.cloud
       http:
         paths:
-          - 
+          - path: /laptop/
             pathType: Prefix
             backend:
               service:
                 name: mobile-app-service
                 port:
                   number: 80
+
+            
