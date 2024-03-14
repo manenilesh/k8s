@@ -15,6 +15,7 @@ spec:
     - host: karad.cloud
       http:
         paths:
+        
           - pathType: Prefix
             path: "/"
             backend:
