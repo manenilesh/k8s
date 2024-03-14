@@ -21,4 +21,4 @@ spec:
               service:
                 name: <Service>
                 port:
-                  number: <Port>
+                  number: 80
