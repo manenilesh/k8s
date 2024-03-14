@@ -16,7 +16,7 @@ spec:
       http:
         paths:
           - pathType: Prefix
-            path: /laptop
+            path: /laptop/
             backend:
               service:
                 name: <Service>
