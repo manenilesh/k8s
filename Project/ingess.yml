@@ -24,4 +24,5 @@ spec:
                   number: 80
 
           - path: /mobile/
-            pathType: 
+            pathType: Prefix
+            
