@@ -19,7 +19,7 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: la-app-service
+                name: laptop-app-app-service
                 port:
                   number: 80
 
