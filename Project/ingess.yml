@@ -19,6 +19,6 @@ spec:
             path: /laptop/
             backend:
               service:
-                name: <Service>
+                name: htt
                 port:
                   number: 80
