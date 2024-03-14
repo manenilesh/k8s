@@ -27,4 +27,5 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name:  mo
+                name:  mobile-app-service
+                por
