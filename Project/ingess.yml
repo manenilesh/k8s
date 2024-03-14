@@ -19,6 +19,6 @@ spec:
             path: /laptop/
             backend:
               service:
-                name: htt
+                name: mobile-app-service
                 port:
                   number: 80
