@@ -14,7 +14,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: cloth-app-service
+  name: lap-app-service
 spec:
   ports:
     - name: http
