@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: my-project-ingress
   labels:
-    name: myingress
+    name: ingress
 spec:
   rules:
   - host: <Host>
