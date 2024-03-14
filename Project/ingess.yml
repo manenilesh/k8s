@@ -16,7 +16,6 @@ spec:
       http:
         paths:
           - pathType: Prefix
-            path: /laptop/
             backend:
               service:
                 name: mobile-app-service
