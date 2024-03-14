@@ -25,4 +25,5 @@ spec:
 
           - path: /mobile/
             pathType: Prefix
-            
+            backend:
+              
