@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: my-mobile-pod
-          image: nileshmane912/home-app:latest
+          image: nileshmane912/mobile-app:latest
           ports:
             - name: nginx
               protocol: TCP
