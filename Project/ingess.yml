@@ -12,7 +12,7 @@ spec:
       port:
         number: 80
   rules:
-    - host: karad.clou
+    - host: karad.cloud
       http:
         paths:
           - pathType: Prefix
